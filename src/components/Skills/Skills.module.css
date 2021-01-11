@@ -1,0 +1,74 @@
+.Skills {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.paralax {
+  margin-top: 40px;
+  height: 90%;
+  width: 98%;
+  background: no-repeat url("../../image/background_skills.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgba(220, 220, 220, 0.7);
+  min-height: 60%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 3px 3px 5px black;
+}
+
+.titleSkills {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--blue-background-color);
+}
+
+.wild {
+  color: var(--blue-background-color);
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.descriptionWild,
+.wildLien {
+  color: black;
+  margin-top: 1.5rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  text-align: center;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mysql,
+.css,
+.html,
+.js,
+.node,
+.react {
+  height: 3rem;
+  width: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    min-height: 70%;
+    width: 95%;
+  }
+  .titleSkills {
+    font-size: 2.5rem;
+  }
+}

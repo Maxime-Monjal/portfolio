@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy"), url("./Font-Gilroy/Gilroy-Bold.ttf") format("truetype");
+}
+
+:root {
+  --blue-background-color: #6a1cfb;
+  --gray-background-color: #f2f2f2;
+  --blackgray-background-color: #3b3838;
+  --green-text-color: #c8e8dc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Gilroy", serif;
+  background-color: var(--gray-background-color);
+  color: var(--gray-background-color);
+  font-weight: 500;
+}

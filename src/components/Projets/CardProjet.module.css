@@ -1,0 +1,41 @@
+.CardProjet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  width: 30rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  margin: 5rem;
+  text-align: center;
+}
+.name {
+  font-size: 1.8rem;
+  color: var(--green-text-color);
+}
+.img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.titleDescription {
+  font-weight: bold;
+  color: var(--green-text-color);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.pDescription {
+  color: var(--green-text-color);
+  margin: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .CardProjet {
+    height: 50%;
+    width: 100%;
+  }
+}

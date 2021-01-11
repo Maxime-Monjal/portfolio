@@ -1,0 +1,22 @@
+.Certification {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--green-text-color);
+}
+
+.description {
+  color: white;
+  margin: 1rem;
+}
+
+.linkCertif {
+  color: white;
+}
+
+.linkCertif:visited {
+  color: white;
+}

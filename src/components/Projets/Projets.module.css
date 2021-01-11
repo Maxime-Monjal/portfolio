@@ -1,0 +1,18 @@
+.titleProjet {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container {
+  background-color: var(--blue-background-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .titleProjet {
+    font-size: 2.5rem;
+  }
+}

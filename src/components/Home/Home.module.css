@@ -1,0 +1,64 @@
+.Home {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.divPresentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  margin-top: 5rem;
+  font-size: 4rem;
+  line-height: 0.9;
+}
+
+.emploi {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.description {
+  max-width: 800px;
+  margin: 2rem 2rem 1rem;
+  text-align: center;
+}
+
+.max {
+  border-radius: 50%;
+  height: 17rem;
+  width: 17rem;
+}
+
+.githubIcon,
+.cvIcon,
+.linkedinIcon {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.contact img:hover {
+  transform: scale(1.2);
+  transition: 0.8s ease-in-out;
+}
+
+@media screen and (max-heigth: 665px) {
+  .Home {
+    height: initial;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 3rem;
+  }
+  .emploi {
+    font-size: 1.8rem;
+  }
+}

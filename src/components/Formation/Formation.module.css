@@ -1,0 +1,41 @@
+.FormationParalax {
+  text-align: center;
+  background: no-repeat url("../../image/background_formation.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Formation {
+  background: rgba(220, 220, 220, 0.2);
+  width: 50%;
+}
+
+.titleFormation {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--blue-background-color);
+}
+
+.titleCertif {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--blue-background-color);
+}
+
+@media screen and (max-width: 768px) {
+  .Formation {
+    width: 80%;
+  }
+
+  .titleFormation {
+    font-size: 2.5rem;
+  }
+  .titleCertif {
+    font-size: 2.5em;
+  }
+}
