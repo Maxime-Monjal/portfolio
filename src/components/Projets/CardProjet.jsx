@@ -12,7 +12,7 @@ function CardProjet({ carteprojet }) {
         </a>
       </div>
       <div className={style.infos}>
-        <h5 className={style.titleDescription}>Description du projet:</h5>
+        <h5 className={style.titleDescription}>Description du projet</h5>
         <p className={style.pDescription}>{description}</p>
         <div>
           <a className={style.linkGit} href={repoGit}>

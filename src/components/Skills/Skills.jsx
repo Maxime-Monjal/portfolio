@@ -24,7 +24,7 @@ function Skills() {
           <h3 className={style.wild}>Wild code school</h3>
           <p className={style.descriptionWild}>
             5 mois (700h) de formation à la Wild Code School de Nantes, 4 mois
-            de stage ( du 15 février au 11 juin 2021), 3 projets + 2 Hackathons
+            de stage (du 15 février au 11 juin 2021), 3 projets + 2 hackathons
             et 257 thé vert 🍵.
           </p>
           <a

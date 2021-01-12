@@ -8,7 +8,7 @@ function Certification({ certification }) {
       <h4 className={style.title}>{name}</h4>
       <p className={style.description}>{description}</p>
       <a className={style.linkCertif} href={link}>
-        Voir la certifications
+        Voir la certification
       </a>
     </div>
   );

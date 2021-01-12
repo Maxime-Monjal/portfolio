@@ -19,11 +19,11 @@ function Formation() {
     },
     {
       name: "CAP Mécanique Automobile /2007-2009",
-      description: "En apprentissage à la mairie de Saumur",
+      description: "En apprentissage à la Mairie de Saumur",
     },
     {
       name: "SSL Saumur /2004-2008",
-      description: "Basket-ball en club et en section sportive au collége",
+      description: "Basket-ball en club et en section sportive au collège",
     },
   ];
 

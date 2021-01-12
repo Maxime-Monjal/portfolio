@@ -12,7 +12,7 @@ function Projets() {
       name: "The New Has-Bin",
       image: newHasBin,
       description:
-        "The New Has-Bin est l'art de recycler en s'amusant ! ps: Sauver la planète, jouer à the new Has-Bin !",
+        "The New Has-Bin est l'art de recycler en s'amusant ! Ps: Sauver la planète, jouer à the new Has-Bin !",
       link: "https://new-has-bin.netlify.app/",
       repoGit: "https://github.com/WildCodeSchool/nts-js-202009-p2-recyclage",
     },
@@ -20,7 +20,7 @@ function Projets() {
       name: "Player Wild",
       image: player,
       description:
-        "Player Wild c'est un site d'avis de passionnés de jeu de société !  ",
+        "Player Wild c'est un site d'avis de passionnés de jeu de société !",
       link: "https://maxime-monjal.github.io/Player-wild/",
       repoGit: "https://github.com/Maxime-Monjal/Player-wild",
     },
