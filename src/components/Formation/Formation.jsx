@@ -7,7 +7,7 @@ function Formation() {
   const formations = [
     {
       name: "Wild Code School /2020",
-      description: "HTML 5 / CSS3 / Javascript / React / Nodejs",
+      description: "HTML / CSS / Javascript / React / Nodejs",
     },
     {
       name: "Retravailler dans l'ouest /2014",
@@ -15,7 +15,7 @@ function Formation() {
     },
     {
       name: "DAEU A /2013",
-      description: "Equivalent bac",
+      description: "Équivalent bac",
     },
     {
       name: "CAP Mécanique Automobile /2007-2009",
