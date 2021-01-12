@@ -35,7 +35,7 @@ function Projets() {
       name: "Epic-Recipes",
       image: epic,
       description: "Hackathon de 24 heures réalisé en équipe de 5 personnes.",
-      link: "https://epic-recipe.netlify.app/",
+      link: "https://epicrecip.netlify.app/",
       repoGit: "https://github.com/Maxime-Monjal/epic-recip",
     },
   ];
