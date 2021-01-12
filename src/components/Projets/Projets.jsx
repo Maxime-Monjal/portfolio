@@ -12,7 +12,7 @@ function Projets() {
       name: "The New Has-Bin",
       image: newHasBin,
       description:
-        "The New Has-Bin est l'art de recycler en s'amusant ! Ps: Sauver la planète, jouer à the new Has-Bin !",
+        "The New Has-Bin est l'art de recycler en s'amusant ! Ps: Sauver la planète, jouer à the New Has-Bin !",
       link: "https://new-has-bin.netlify.app/",
       repoGit: "https://github.com/WildCodeSchool/nts-js-202009-p2-recyclage",
     },
