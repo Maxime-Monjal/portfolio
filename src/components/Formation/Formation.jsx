@@ -10,7 +10,7 @@ function Formation() {
       description: "HTML / CSS / Javascript / React / Nodejs",
     },
     {
-      name: "Retravailler dans l'ouest /2014",
+      name: "Retravailler dans l'Ouest /2014",
       description: "Orientation dédiée à la filière de la vente",
     },
     {

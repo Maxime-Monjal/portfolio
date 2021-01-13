@@ -28,7 +28,7 @@ function Home() {
           <a href="https://github.com/Maxime-Monjal">
             <img className={style.githubIcon} src={Github} alt="Github-icon" />
           </a>
-          <a href="https://drive.google.com/file/d/1o9EoqDxBgK6nz5SmwwoPgljahwxB88Xt/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1hHfP_8gHD3fDQv1ykRA8uenBJGDH5xaB/view">
             <img className={style.cvIcon} src={Cv} alt="CV-icon" />
           </a>
 
