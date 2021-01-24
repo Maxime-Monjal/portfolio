@@ -13,7 +13,7 @@ function Projets() {
       name: "Magic Pills",
       image: magicpills,
       description:
-        "Hackathon de 72h avec l'entreprise Search Foresight spécialisée en SEO. Vainqueur du campus de Nantes !",
+        "Voici le résultat d'un Hackathon de 72h. Le thème était de créer un site e-commerce orignal et fun avec un très bon référencement, on a donc opté pour un site vendant des super pouvoirs. On a eu la chance d'avoir les conseils de l'entreprise Search Foresight, spécialisée en SEO. Nous avons été nommés vainqueurs du campus de Nantes !",
       tech: "React, Node, Express, Mysql",
 
       intervenant: "En équipe de 5 personnes",
@@ -24,7 +24,7 @@ function Projets() {
       name: "The New Has-Bin",
       image: newHasBin,
       description:
-        "The New Has-Bin est l'art de recycler en s'amusant ! Ps: Sauvez la planète, jouez à the New Has-Bin !",
+        "Ce site a pour objectif de rendre le recyclage ludique. Vous pouvez accepter ou non des missions pour gagner des points. Nous avons utilisé 3 APIs de Nantes, le localStorage pour la partie profil et Leaflet pour la carte. The New Has-Bin, c'est l'art de recycler en s'amusant ! Ps: Sauvez la planète, jouez à the New Has-Bin !",
       tech: "React",
       intervenant: "En équipe de 5 personnes",
       link: "https://new-has-bin.netlify.app/",
@@ -34,7 +34,7 @@ function Projets() {
       name: "Player Wild",
       image: player,
       description:
-        "Player Wild c'est un site d'avis de passionnés de jeux de société !",
+        "Pour ce premier projet réalisé en équipe, le seul impératif était de rendre ce site responsive, pour le reste nous avions carte blanche pour le thème. Étant tous passionnés de jeux, le choix s'est fait naturellement. Player Wild est donc un site d'avis de passionnés de jeux de société ! Nous avions 10 jours pour mener à bien ce projet.",
       tech: "HTML, CSS, Javascript",
       intervenant: "En équipe de 4 personnes",
       link: "https://maxime-monjal.github.io/Player-wild/",
@@ -43,16 +43,18 @@ function Projets() {
     {
       name: "Mon Premier Portfolio",
       image: portfolio,
-      description: "Mon premier portfolio inspiré de Matt Farley.",
+      description:
+        "Mon premier portfolio est inspiré de Matt Farley. Je l'ai réalisé au tout début de ma formation à la Wild Code School de Nantes. Cela m'a permis de mettre en pratique mes connaissances en HTML, CSS et Javascript. J'ai notamment porté une attention toute particulière à la partie responsive du site.",
       tech: "HTML, CSS, Javascript",
       intervenant: "Seul",
       link: "https://maxime-monjal.github.io/CV/",
       repoGit: "https://github.com/Maxime-Monjal/CV",
     },
     {
-      name: "Epic-Recipes",
+      name: "Epic-Recipe",
       image: epic,
-      description: "Hackathon de 24 heures.",
+      description:
+        "Epic-Recipe est l'aboutissement d'un Hackathon de 24 heures. La thématique était de réaliser un site en rapport avec une époque particulière. Nous avons décidé de choisir le Moyen Âge et de créer un jeu de troc avec un tavernier fort sympathique ! Il est jouable seulement en version desktop.",
       tech: "React",
       intervenant: "En équipe de 5 personnes",
       link: "https://epicrecip.netlify.app/",
