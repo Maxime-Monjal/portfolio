@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./CardProjet.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function CardProjet({ carteprojet }) {
   const {
@@ -11,8 +13,17 @@ function CardProjet({ carteprojet }) {
     intervenant,
     repoGit,
   } = carteprojet;
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <div className={style.CardProjet}>
+    <div
+      className={style.CardProjet}
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <h3 className={style.name}>{name}</h3>
       <div className={style.image}>
         <a href={link}>
