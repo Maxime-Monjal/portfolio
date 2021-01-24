@@ -13,7 +13,7 @@ function Projets() {
       name: "Magic Pills",
       image: magicpills,
       description:
-        "Voici le résultat d'un Hackathon de 72h. Le thème était de créer un site e-commerce orignal et fun avec un très bon référencement, on a donc opté pour un site vendant des super pouvoirs. On a eu la chance d'avoir les conseils de l'entreprise Search Foresight, spécialisée en SEO. Nous avons été nommés vainqueurs du campus de Nantes !",
+        "Voici le résultat d'un Hackathon de 72h. Le thème était de créer un site e-commerce original et fun avec un très bon référencement, on a donc opté pour un site vendant des super pouvoirs. On a eu la chance d'avoir les conseils de l'entreprise Search Foresight, spécialisée en SEO. Nous avons été nommés vainqueurs du campus de Nantes !",
       tech: "React, Node, Express, Mysql",
 
       intervenant: "En équipe de 5 personnes",
