@@ -33,7 +33,7 @@ function CardProjet({ carteprojet }) {
       <div className={style.infos}>
         <h5 className={style.titleDescription}>Description du projet</h5>
         <p className={style.pDescription}>{description}</p>
-        <h5 className={style.titleDescription}>Technologie utilisé</h5>
+        <h5 className={style.titleDescription}>Technologie utilisée</h5>
         <p className={style.pIntervenant}>{tech}</p>
         <h5 className={style.titleDescription}>Réalisé</h5>
         <p className={style.pIntervenant}>{intervenant}</p>
