@@ -2,7 +2,15 @@ import React from "react";
 import style from "./CardProjet.module.css";
 
 function CardProjet({ carteprojet }) {
-  const { link, name, image, description, repoGit } = carteprojet;
+  const {
+    link,
+    name,
+    image,
+    description,
+    tech,
+    intervenant,
+    repoGit,
+  } = carteprojet;
   return (
     <div className={style.CardProjet}>
       <h3 className={style.name}>{name}</h3>
@@ -14,9 +22,13 @@ function CardProjet({ carteprojet }) {
       <div className={style.infos}>
         <h5 className={style.titleDescription}>Description du projet</h5>
         <p className={style.pDescription}>{description}</p>
+        <h5 className={style.titleDescription}>Technologie utilisé</h5>
+        <p className={style.pIntervenant}>{tech}</p>
+        <h5 className={style.titleDescription}>Réalisé</h5>
+        <p className={style.pIntervenant}>{intervenant}</p>
         <div>
           <a className={style.linkGit} href={repoGit}>
-            Voir le repository Github.
+            Voir le repository Github
           </a>
         </div>
       </div>
