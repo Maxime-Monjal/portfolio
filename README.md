@@ -8,7 +8,7 @@
 
 > Voici mon portfolio créer avec React déployé sur Netlify
 
-### 🏠 [Pour voir le site c'est par ici](https://maxime-monjal.netlify.app/)
+### 🏠 [Page d'accueil](https://maxime-monjal.netlify.app/)
 
 ## Installer en local
 
