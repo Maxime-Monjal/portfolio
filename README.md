@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Voici mon portfolio créér avec React déployé sur Netlify
+> Voici mon portfolio créer avec React déployé sur Netlify
 
 ### 🏠 [Homepage](https://maxime-monjal.netlify.app/)
 
