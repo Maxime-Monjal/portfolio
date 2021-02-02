@@ -8,9 +8,10 @@
 
 > Voici mon portfolio créer avec React déployé sur Netlify
 
-### 🏠 [Homepage](https://maxime-monjal.netlify.app/)
+### 🏠 [Pour voir le site c'est par ici](https://maxime-monjal.netlify.app/)
 
-## Install
+## Installer en local
+
 
 ```sh
 npm install
@@ -28,7 +29,7 @@ npm run start
 npm run test
 ```
 
-## Author
+## Auteur
 
 👤 **Maxime Monjal**
 
@@ -36,6 +37,6 @@ npm run test
 * Github: [@Maxime-Monjal](https://github.com/Maxime-Monjal)
 * LinkedIn: [@maximemonjal](https://linkedin.com/in/maximemonjal)
 
-## Show your support
+## Montrez votre support
 
-Give a ⭐️ if this project helped you!
+Une petite ⭐️ si ce projet vous a plu ! 
