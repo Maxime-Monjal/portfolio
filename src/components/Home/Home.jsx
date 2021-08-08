@@ -16,19 +16,23 @@ function Home() {
         <img className={style.max} src={Max} alt="Maxime" />
         <div>
           <p className={style.description}>
-            De formation mécanicien automobile, je me suis reconverti pour être
-            développeur. Pourquoi ? Parce que pour moi c’est la version 2.0 de
-            mon ancien métier. J’ai toujours aimé résoudre des problèmes ...
-            Maintenant je peux continuer à le faire et sans l’huile de vidange.
+            De formation mécanicien automobile, je me suis reconverti. Pourquoi
+            ? Parce que pour moi c’est la version 2.0 de mon ancien métier. J’ai
+            toujours aimé résoudre des problèmes ... Maintenant je peux
+            continuer à le faire et sans l’huile de vidange.
+          </p>
+          <p className={style.description}>
+            Actuellement disponible pour un poste en CDI ou une mission en
+            freelance.
           </p>
         </div>
-        <p>↓ Contactez-moi ou visionner mon CV ↓</p>
+        <p>↓ Prenez contact avec moi ou visionner mon CV ↓</p>
 
         <div className={style.contact}>
           <a href="https://github.com/Maxime-Monjal">
             <img className={style.githubIcon} src={Github} alt="Github-icon" />
           </a>
-          <a href="https://drive.google.com/file/d/1hHfP_8gHD3fDQv1ykRA8uenBJGDH5xaB/view">
+          <a href="https://drive.google.com/file/d/1RoyqL-coV8EiKnnQr17zjq_VVQbW5T1A/view">
             <img className={style.cvIcon} src={Cv} alt="CV-icon" />
           </a>
 

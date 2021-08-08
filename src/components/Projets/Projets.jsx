@@ -46,7 +46,7 @@ function Projets() {
       description:
         "Mon premier portfolio est inspiré de Matt Farley. Je l'ai réalisé au tout début de ma formation à la Wild Code School de Nantes. Cela m'a permis de mettre en pratique mes connaissances en HTML, CSS et Javascript. J'ai notamment porté une attention toute particulière à la partie responsive du site.",
       tech: "HTML, CSS, Javascript",
-      intervenant: "Seul",
+      intervenant: "En autonomie",
       link: "https://maxime-monjal.github.io/CV/",
       repoGit: "https://github.com/Maxime-Monjal/CV",
     },
