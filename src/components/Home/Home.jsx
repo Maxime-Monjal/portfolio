@@ -32,7 +32,7 @@ function Home() {
           <a href="https://github.com/Maxime-Monjal">
             <img className={style.githubIcon} src={Github} alt="Github-icon" />
           </a>
-          <a href="https://drive.google.com/file/d/1XneBC6kMhfERNvdW5BtdkfyeSIYJlhhK/view">
+          <a href="https://drive.google.com/file/d/1nnS0mLt4cFD76xqRXPrOuEIGBv1q9YWh/view">
             <img className={style.cvIcon} src={Cv} alt="CV-icon" />
           </a>
 
