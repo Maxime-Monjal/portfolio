@@ -1,7 +1,7 @@
 .title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--green-text-color);
+  color: rgb(30, 30, 30);
 }
 .description {
   color: white;

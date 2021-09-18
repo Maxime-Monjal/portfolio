@@ -6,10 +6,10 @@
 }
 
 :root {
-  --blue-background-color: #6a1cfb;
+  --blue-background-color: #4682b4;
   --gray-background-color: #f2f2f2;
   --blackgray-background-color: #3b3838;
-  --green-text-color: #c8e8dc;
+  --blue-text-color: #4682b4;
 }
 
 * {
@@ -20,6 +20,6 @@
 html {
   font-family: "Gilroy", serif;
   background-color: var(--gray-background-color);
-  color: var(--gray-background-color);
+  color: var(--blackgray-background-color);
   font-weight: 500;
 }

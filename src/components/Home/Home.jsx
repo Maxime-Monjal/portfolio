@@ -29,19 +29,18 @@ function Home() {
         <p>↓ Prenez contact avec moi ou visionner mon CV ↓</p>
 
         <div className={style.contact}>
-          <a href="https://github.com/Maxime-Monjal">
-            <img className={style.githubIcon} src={Github} alt="Github-icon" />
-          </a>
-          <a href="https://drive.google.com/file/d/1nnS0mLt4cFD76xqRXPrOuEIGBv1q9YWh/view">
-            <img className={style.cvIcon} src={Cv} alt="CV-icon" />
-          </a>
-
           <a href="https://www.linkedin.com/in/maximemonjal/">
             <img
               className={style.linkedinIcon}
               src={Linkedin}
               alt="Linkedin-icon"
             />
+          </a>
+          <a href="https://drive.google.com/file/d/1nnS0mLt4cFD76xqRXPrOuEIGBv1q9YWh/view">
+            <img className={style.cvIcon} src={Cv} alt="CV-icon" />
+          </a>
+          <a href="https://github.com/Maxime-Monjal">
+            <img className={style.githubIcon} src={Github} alt="Github-icon" />
           </a>
         </div>
       </div>

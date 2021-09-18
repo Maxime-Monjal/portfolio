@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <header>
       <nav>
-        <ul className={style.ul}>
+        <ul className={style.navUl}>
           <li>
             <Link
               activeClass="active"

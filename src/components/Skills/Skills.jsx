@@ -1,11 +1,5 @@
 import React from "react";
 import style from "./Skills.module.css";
-import sql from "../../image/icons/mysql-logo.svg";
-import css from "../../image/icons/css-3.svg";
-import html from "../../image/icons/html5.svg";
-import js from "../../image/icons/javascript.png";
-import node from "../../image/icons/nodeJS.png";
-import react from "../../image/icons/react.png";
 
 function Skills() {
   return (
@@ -13,27 +7,26 @@ function Skills() {
       <div className={style.paralax}>
         <div className={style.container}>
           <h2 className={style.titleSkills}>Compétences</h2>
-          <div className={style.img}>
-            <img className={style.css} src={css} alt="css3" />
-            <img className={style.html} src={html} alt="html" />
-            <img className={style.js} src={js} alt="javascript" />
-            <img className={style.react} src={react} alt="react" />
-            <img className={style.node} src={node} alt="node" />
-            <img className={style.mysql} src={sql} alt="mysql" />
+          <div className={style.descriptionWild}>
+            <p>
+              Après 5 mois(700h) de formation à la Wild Code School de Nantes (3
+              projets + 2 hackathons) et 4 mois de stage chez{" "}
+              <a href="https://www.neuron-partners.fr/">Neuron Partners</a>,
+            </p>
+            <p>
+              j'ai accumulé plusieurs compétences allant de la création d'une
+              maquette sur Figma au déploiement sur Netlify ou Heroku.
+            </p>
+            <p>
+              Pour avoir des informations plus détaillées je vous invite à
+              consulter mon bilan de compétences ci-dessous.
+            </p>
           </div>
-          <h3 className={style.wild}>Wild Code School</h3>
-          <p className={style.descriptionWild}>
-            5 mois (700h) de formation à la Wild Code School de Nantes, 4 mois
-            de stage chez <a
-            href="https://www.neuron-partners.fr/"
-          >Neuron Partners</a> (du 15 février au 11 juin 2021), 3 projets + 2 hackathons
-            et 257 thés verts 🍵.
-          </p>
           <a
             className={style.wildLien}
-            href="https://www.wildcodeschool.com/fr-FR/formations/formation-developpeur-web"
+            href="https://maxime-cv.notion.site/D-veloppeur-Javascript-Fullstack-cc1bab165d4040d4b09fe129f0e1b09c"
           >
-            Le site de la Wild
+            Voir mon bilan de compétences
           </a>
         </div>
       </div>

@@ -4,15 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function CardProjet({ carteprojet }) {
-  const {
-    link,
-    name,
-    image,
-    description,
-    tech,
-    intervenant,
-    repoGit,
-  } = carteprojet;
+  const { link, name, image, description, tech, intervenant, repoGit } =
+    carteprojet;
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -28,6 +21,11 @@ function CardProjet({ carteprojet }) {
       <div className={style.image}>
         <a href={link}>
           <img className={style.img} src={image} alt={name} />
+        </a>
+      </div>
+      <div>
+        <a className={style.linkGit} href={link}>
+          Voir le projet
         </a>
       </div>
       <div className={style.infos}>

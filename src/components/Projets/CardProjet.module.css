@@ -16,7 +16,7 @@
 }
 .name {
   font-size: 1.8rem;
-  color: var(--green-text-color);
+  color: var(--blue-text-color);
   padding-top: 1rem;
 }
 .img {
@@ -26,7 +26,7 @@
 
 .titleDescription {
   font-weight: bold;
-  color: var(--green-text-color);
+  color: var(--blue-text-color);
   font-size: 1.2rem;
   margin-top: 1rem;
 }
@@ -41,7 +41,7 @@
 }
 
 .linkGit {
-  color: var(--green-text-color);
+  color: var(--blue-text-color);
 }
 
 @media screen and (max-width: 550px) {
