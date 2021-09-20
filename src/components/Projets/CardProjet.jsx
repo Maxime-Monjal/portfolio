@@ -15,7 +15,7 @@ function CardProjet({ carteprojet }) {
       className={style.CardProjet}
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000"
+      data-aos-duration="1000"
     >
       <h3 className={style.name}>{name}</h3>
       <div className={style.image}>

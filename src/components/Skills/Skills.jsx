@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./Skills.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skills() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section className={style.Skills} id="Skills">
       <div className={style.paralax}>
-        <div className={style.container}>
+        <div
+          className={style.container}
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
           <h2 className={style.titleSkills}>Compétences</h2>
           <div className={style.descriptionWild}>
             <p>

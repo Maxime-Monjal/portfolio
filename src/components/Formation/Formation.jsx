@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardFormation from "./CardFormation";
 import Certification from "./Certification";
 import style from "./Formation.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Formation() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   const formations = [
     {
       name: "Wild Code School | 2020",
@@ -42,12 +48,24 @@ function Formation() {
   return (
     <div className={style.FormationParalax} id="Formation">
       <div className={style.Formation}>
-        <h2 className={style.titleFormation}>Formations</h2>
+        <h2
+          className={style.titleFormation}
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+        >
+          Formations
+        </h2>
 
         {formations.map((formation) => (
           <CardFormation formation={formation} key={formation.name} />
         ))}
-        <h2 className={style.titleCertif}>Certifications</h2>
+        <h2
+          className={style.titleCertif}
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+        >
+          Certifications
+        </h2>
         {certifications.map((certification) => (
           <Certification
             certification={certification}
