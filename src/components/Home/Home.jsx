@@ -5,6 +5,7 @@ import NavBar from "../NavBar/NavBar";
 import Github from "../../image/icons/Github-icon.svg";
 import Cv from "../../image/icons/Cv-icon.svg";
 import Linkedin from "../../image/icons/Linkedin-icon.png";
+import Pdf from "../../image/CV.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -48,7 +49,7 @@ function Home() {
               alt="Linkedin-icon"
             />
           </a>
-          <a href="https://drive.google.com/file/d/1nnS0mLt4cFD76xqRXPrOuEIGBv1q9YWh/view">
+          <a href={Pdf} target="_blank" rel="noreferrer">
             <img className={style.cvIcon} src={Cv} alt="CV-icon" />
           </a>
           <a href="https://github.com/Maxime-Monjal">
