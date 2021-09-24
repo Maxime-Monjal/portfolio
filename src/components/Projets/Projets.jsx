@@ -1,6 +1,7 @@
 import React from "react";
 import CardProjet from "./CardProjet";
 import style from "./Projets.module.css";
+import vueMovie from "../../image/Projet/vue_movie.png";
 import magicpills from "../../image/Projet/magicpills.png";
 import newHasBin from "../../image/Projet/new_has_bin.png";
 import player from "../../image/Projet/player_wild.png";
@@ -10,12 +11,21 @@ import epic from "../../image/Projet/epic_recipe.png";
 function Projets() {
   const projet = [
     {
+      name: "Vue Movie (en cours)",
+      image: vueMovie,
+      description:
+        "Qu'allez-vous regarder comme film ce soir ? Vue Movie a pour but de résoudre ce problème. Vous pouvez avoir une description détaillée d'énormément de films.Tous ces films sont récupéré via l'API The Movie DB (TMDB). Ce projet est en cours de construction. ",
+      tech: "Vue, Axios, TailwindCSS, Node/Express, Netlify, Heroku, API",
+      intervenant: "En autonomie",
+      link: "https://vue-movie-max.netlify.app/",
+      repoGit: "https://github.com/Maxime-Monjal/vue-movie",
+    },
+    {
       name: "Magic Pills",
       image: magicpills,
       description:
         "Voici le résultat d'un Hackathon de 72h. Le thème était de créer un site e-commerce original et fun avec un très bon référencement, on a donc opté pour un site vendant des super pouvoirs. On a eu la chance d'avoir les conseils de l'entreprise Search Foresight, spécialisée en SEO. Nous avons été nommés vainqueurs du campus de Nantes !",
       tech: "React, Node, Express, Mysql",
-
       intervenant: "En équipe de 5 personnes",
       link: "https://magicpills.netlify.app/",
       repoGit: "https://github.com/loicbdev/super-pouvoir-react-jwt",
