@@ -14,7 +14,7 @@ function Projets() {
       name: "Vue Movie (en cours)",
       image: vueMovie,
       description:
-        "Qu'allez-vous regarder comme film ce soir ? Vue Movie a pour but de résoudre ce problème. Vous pouvez avoir une description détaillée d'énormément de films.Tous ces films sont récupéré via l'API The Movie DB (TMDB). Ce projet est en cours de construction. ",
+        "Qu'allez-vous regarder comme film ce soir ? Vue Movie a pour but de résoudre ce problème. Vous avez une description détaillée d'une multitude de films. Lorsque vous cliquez sur un film vous avez la possibilité de voir des films similaires. Tous ces films sont récupéré via l'API The Movie DB (TMDB). Ce projet est en cours de construction. ",
       tech: "Vue, Axios, TailwindCSS, Node/Express, Netlify, Heroku, API",
       intervenant: "En autonomie",
       link: "https://vue-movie-max.netlify.app/",
