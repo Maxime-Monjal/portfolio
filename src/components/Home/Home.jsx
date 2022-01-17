@@ -3,9 +3,7 @@ import style from "./Home.module.css";
 import Max from "../../image/Maxime_profil.png";
 import NavBar from "../NavBar/NavBar";
 import Github from "../../image/icons/Github-icon.svg";
-import Cv from "../../image/icons/Cv-icon.svg";
 import Linkedin from "../../image/icons/Linkedin-icon.png";
-import Pdf from "../../image/CV.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,12 +32,7 @@ function Home() {
             toujours aimé résoudre des problèmes ... Maintenant je peux
             continuer à le faire et sans l’huile de vidange.
           </p>
-          <p className={style.description}>
-            Actuellement disponible pour un poste en CDI ou une mission en
-            freelance.
-          </p>
         </div>
-        <p>↓ Prenez contact avec moi ou visionner mon CV ↓</p>
 
         <div className={style.contact}>
           <a href="https://www.linkedin.com/in/maximemonjal/">
@@ -49,9 +42,7 @@ function Home() {
               alt="Linkedin-icon"
             />
           </a>
-          <a href={Pdf} target="_blank" rel="noreferrer">
-            <img className={style.cvIcon} src={Cv} alt="CV-icon" />
-          </a>
+        
           <a href="https://github.com/Maxime-Monjal">
             <img className={style.githubIcon} src={Github} alt="Github-icon" />
           </a>
