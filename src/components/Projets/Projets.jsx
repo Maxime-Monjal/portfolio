@@ -71,11 +71,21 @@ function Projets() {
       repoGit: "https://github.com/Maxime-Monjal/epic-recip",
     },
   ];
+
+  localStorage.setItem('projet', JSON.stringify(projet))
+  const storeCardProjet = JSON.parse(localStorage.getItem('projet')) || null
+
   return (
     <section className={style.Projets} id="Projets">
       <h2 className={style.titleProjet}>Projets</h2>
       <div className={style.container}>
-        {projet.map((carteprojet) => (
+
+        {
+         storeCardProjet ? storeCardProjet.map((carteprojet) => (
+           <CardProjet carteprojet={carteprojet} key={carteprojet.name} />
+         )) : 
+        
+        projet.map((carteprojet) => (
           <CardProjet carteprojet={carteprojet} key={carteprojet.name} />
         ))}
       </div>
