@@ -1,7 +1,7 @@
 import React from "react";
 import CardProjet from "./CardProjet";
 import style from "./Projets.module.css";
-import vueMovie from "../../image/Projet/vue_movie.png";
+import reactMovie from "../../image/Projet/react_movie.png";
 import magicpills from "../../image/Projet/magicpills.png";
 import newHasBin from "../../image/Projet/new_has_bin.png";
 import player from "../../image/Projet/player_wild.png";
@@ -11,14 +11,14 @@ import epic from "../../image/Projet/epic_recipe.png";
 function Projets() {
   const projet = [
     {
-      name: "Vue Movie (en cours)",
-      image: vueMovie,
+      name: "React Movie ",
+      image: reactMovie,
       description:
-        "Qu'allez-vous regarder comme film ce soir ? Vue Movie a pour but de résoudre ce problème. Vous avez une description détaillée d'une multitude de films. Lorsque vous cliquez sur un film vous avez la possibilité de voir des films similaires. Tous ces films sont récupéré via l'API The Movie DB (TMDB). Ce projet est en cours de construction. ",
-      tech: "Vue, Axios, TailwindCSS, Node/Express, Netlify, Heroku, API",
+        "Qu'allez-vous regarder comme film ce soir ? React Movie a pour but de résoudre ce problème. Vous avez une description détaillée d'une multitude de films. Lorsque vous cliquez sur un film vous avez la possibilité de voir des films similaires. Tous ces films sont récupérés via l'API The Movie DB (TMDB). ",
+      tech: "React, TailwindCSS, Node/Fastify, Netlify, Render, API/TMDB",
       intervenant: "En autonomie",
-      link: "https://vue-movie-max.netlify.app/",
-      repoGit: "https://github.com/Maxime-Monjal/vue-movie",
+      link: "https://the-react-movies.netlify.app/",
+      repoGit: "https://github.com/Maxime-Monjal/react-movie",
     },
     {
       name: "Magic Pills",
