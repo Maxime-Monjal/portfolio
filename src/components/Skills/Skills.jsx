@@ -32,6 +32,8 @@ function Skills() {
 
           <a
             className={style.wildLien}
+            rel="noopener noreferrer"
+            target="_blank"
             href="https://maxime-cv.notion.site/D-veloppeur-SharePoint-SPFx-240dd57f12bf8023bc4cd61fb51aea94"
           >
             Voir mon CV 
