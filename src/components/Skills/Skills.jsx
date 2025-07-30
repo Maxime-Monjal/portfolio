@@ -16,27 +16,25 @@ function Skills() {
           data-aos="zoom-in"
           data-aos-duration="2000"
         >
-          <h2 className={style.titleSkills}>Compétences</h2>
-          <div className={style.descriptionWild}>
-            <p>
-              Après 5 mois(700h) de formation à la Wild Code School de Nantes (3
-              projets + 2 hackathons) et 4 mois de stage chez{" "}
-              <a href="https://www.neuron-partners.fr/">Neuron Partners</a>,
-            </p>
-            <p>
-              j'ai accumulé plusieurs compétences allant de la création d'une
-              maquette sur Figma au déploiement sur Netlify ou Heroku.
-            </p>
-            <p>
-              Pour avoir des informations plus détaillées je vous invite à
-              consulter mon bilan de compétences ci-dessous.
-            </p>
-          </div>
+        <h2 className={style.titleSkills}>À propos</h2>
+<div className={style.descriptionWild}>
+  <p>
+    Je suis actuellement développeur SPFx chez {" "}
+    <a href="https://www.asi.fr/societe/partenaires/partenaire-microsoft" target="_blank" rel="noopener noreferrer">
+      Moca By ASI
+    </a>, où je conçois et personnalise des solutions collaboratives basées sur SharePoint Online, Microsoft 365 et Powell Software.
+  </p>
+ <p>
+  Mon expertise inclut le développement d’applications et de composants via SPFx et l’automatisation de tâches grâce à PowerShell.
+</p>
+
+</div>
+
           <a
             className={style.wildLien}
-            href="https://maxime-cv.notion.site/D-veloppeur-Javascript-Fullstack-cc1bab165d4040d4b09fe129f0e1b09c"
+            href="https://maxime-cv.notion.site/D-veloppeur-SharePoint-SPFx-240dd57f12bf8023bc4cd61fb51aea94"
           >
-            Voir mon bilan de compétences
+            Voir mon CV 
           </a>
         </div>
       </div>

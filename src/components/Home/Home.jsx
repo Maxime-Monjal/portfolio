@@ -27,10 +27,10 @@ function Home() {
         />
         <div>
           <p className={style.description}>
-            De formation mécanicien automobile, je me suis reconverti. Pourquoi
-            ? Parce que pour moi c’est la version 2.0 de mon ancien métier. J’ai
-            toujours aimé résoudre des problèmes ... Maintenant je peux
-            continuer à le faire et sans l’huile de vidange.
+            Développeur Front-End SPFx sur SharePoint / Powell, je conçois
+des solutions en React et TypeScript adaptées à l’écosystème
+M365, avec une attention particulière à la performance et à la
+maintenabilité.
           </p>
         </div>
 

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+  margin-bottom: 20px;
 }
 
 .paralax {
@@ -18,13 +19,14 @@
 
 .container {
   background: rgba(220, 220, 220, 0.9);
-  min-height: 60%;
+  min-height: 50%;
   width: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   box-shadow: 3px 3px 5px black;
+  padding: 10px;
 }
 
 .titleSkills {
@@ -74,5 +76,14 @@
   }
   .titleSkills {
     font-size: 2.5rem;
+  }
+}
+
+@media  screen and (max-width: 375px) {
+  .paralax {
+    background-image: none;
+  }
+  .container {
+    box-shadow: none;
   }
 }
