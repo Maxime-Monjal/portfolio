@@ -35,6 +35,11 @@ function Formation() {
 
   const certifications = [
     {
+      name: "Powell Software",
+      description: "Powell Software Intranet Certification",
+      link: "https://maxime-monjal.github.io/CV/images/certifications/Certificate_Intranet%20Certification_MAXIME%20MONJAL_2023-04-05.pdf",
+    },
+    {
       name: "Free Code Camp",
       description: "Responsive Web Design (HTML, CSS, Flexbox, CSS Grid)",
       link: "https://maxime-monjal.github.io/CV/images/certifications/freecodecamp.png",
